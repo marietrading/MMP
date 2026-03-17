@@ -23,6 +23,23 @@ header {
     border-bottom: 5px solid var(--accent);
 }
 
+.header-content {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically */
+    gap: 25px;           /* Space between logo and text */
+    max-width: 1100px;
+    text-align: left;    /* Aligns text to the left now that it's side-by-side */
+}
+
+/* Logo Styling */
+.parish-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    /* This line "removes" white backgrounds */
+    /*mix-blend-mode: multiply;*/ 
+}
+
 .container {
     max-width: 1100px;
     margin: 2rem auto;
